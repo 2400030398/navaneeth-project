@@ -1,0 +1,13 @@
+<script>
+function addRecommendation() {
+  const newRec = document.createElement('div');
+  newRec.style.border = "1px solid #ddd";
+  newRec.style.padding = "20px";
+  newRec.style.width = "30%";
+  newRec.style.borderRadius = "10px";
+  newRec.innerText = "New recommendation: Alex’s coding style is clean and efficient!";
+  document.querySelector('#recommendations div').after(newRec);
+}
+</script>
+
+<button onclick="addRecommendation()" style="margin:20px;">Add Recommendation</button>
