@@ -5,7 +5,7 @@ function addRecommendation() {
   newRec.style.padding = "20px";
   newRec.style.width = "30%";
   newRec.style.borderRadius = "10px";
-  newRec.innerText = "New recommendation: Alex’s coding style is clean and efficient!";
+  newRec.innerText = "New recommendation: steeve’s 2400030398 coding style is clean and efficient!";
   document.querySelector('#recommendations div').after(newRec);
 }
 </script>
